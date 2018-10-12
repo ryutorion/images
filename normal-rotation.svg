@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="480" height="240" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>法線</title>
+	<desc>法線</desc>
+	<g id="normal">
+		<line x1="0" y1="80" x2="160" y2="240" style="stroke: black;"/>
+		<line x1="80" y1="160" x2="110" y2="130" style="stroke: black;"/>
+		<line x1="110" y1="130" x2="90" y2="130" style="stroke: black;"/>
+		<line x1="110" y1="130" x2="110" y2="150" style="stroke: black;"/>
+		<line x1="90" y1="150" x2="100" y2="160" style="stroke: black;"/>
+		<line x1="100" y1="160" x2="90" y2="170" style="stroke: black;"/>
+	</g>
+	<use xlink:href="#normal" transform="translate(240 -160) rotate(90)" transform-origin="0 240"/>
+</svg>
